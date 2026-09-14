@@ -1,0 +1,9 @@
+
+.helpingLocalTileContent h4{
+    color: #4D4D4D;
+    font: 700 28px/36px 'Inter' , sans-serif;
+}
+.helpingLocalTileContent p{
+    color: #717171;
+    font: 400 16px/24px 'Inter' , sans-serif;
+}

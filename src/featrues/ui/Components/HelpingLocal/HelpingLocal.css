@@ -1,0 +1,23 @@
+.HelpingLocal{
+    padding-block: 3rem;
+    margin-block: 2rem;
+    background-color: #F5F7FA;
+}
+.helpingLocalTiles{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 2rem;
+}
+.HelpingLocalContent h2{
+    color: #4D4D4D;
+    font: 600 36px/44px 'Inter', sans-serif;
+}
+.HelpingLocalContent h2 span{
+    color: #4CAF4F;
+    font: 600 36px/44px 'Inter', sans-serif;
+}
+.HelpingLocalContent p{
+    color: #18191F;
+    font: 400 16px/24px 'Inter', sans-serif;
+}

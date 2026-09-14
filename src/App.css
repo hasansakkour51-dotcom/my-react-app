@@ -1,0 +1,55 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #ededed;
+}
+.swiper-pagination-bullet {
+    background: #D9D9D9!important;       
+    opacity: 1 !important;
+    width: 16px !important;
+    height: 16px !important;
+    margin: -0.3rem 6px !important;
+    transition: all 0.3s ease;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: #4CAF4F !important;     
+    opacity: 1;
+    width: 16px !important;
+    height: 16px !important;
+    box-shadow: 0 0 8px rgba(76,175,79,0.8); 
+  }
+  @media (max-width: 480px) {
+    body {
+      font-size: 0.875rem;
+    }
+    h1 { font-size: 1.5rem !important; }
+    h2 { font-size: 1.25rem !important; }
+    h3 { font-size: 1.125rem !important; }
+    h4 { font-size: 1.25rem !important; }
+    h5 { font-size: 1.25rem !important; }
+    p  { font-size: 0.875rem !important; }
+  
+    /* span inside p */
+  h1 span {
+      font-size: 1.5rem !important;
+      font-weight: inherit; /* أو غيريها إذا بدك */
+    }
+  }
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+    body {
+      font-size: 1rem ;
+    }
+    h1 { font-size: 1.75rem !important; }
+    h2 { font-size: 1.5rem !important; }
+    h3 { font-size: 1.25rem !important; }
+    h4 { font-size: 1.25rem !important; }
+    h5 { font-size: 1.25rem !important; }
+    p  { font-size: 1rem !important; }
+    
+    /* span inside p */
+    h1 span {
+      font-size: 1.5rem !important;
+      font-weight: inherit; /* أو غيريها إذا بدك */
+    }   
+  }

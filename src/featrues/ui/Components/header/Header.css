@@ -1,0 +1,107 @@
+.logo{
+    text-decoration: none;
+    color: #263238;
+}
+.header{
+    padding-block: 1.5rem;
+    background-color: #F5F7FA;
+}
+.mainList{
+    list-style: none;
+    margin: 0;
+}
+.mainList li a{
+    color: #18191F;
+    font: 400 16px/24px 'Inter', sans-serif;
+}
+.registerBtns a{
+    padding:0.5rem 1rem;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.registerBtns a:first-child{
+    color: #4CAF4F;
+    font: 500 14/20px 'Inter', sans-serif;
+    background-color: #F5F7FA;
+}
+.registerBtns a:last-child{
+    color: #FFFFFF;
+    font: 500 14/20px 'Inter', sans-serif;
+    background-color: #4CAF4F;
+}
+/* زر المينيو */
+.menuBtn {
+    background: none;
+    border: none;
+    width: 32px;
+    height: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    position: relative;
+     z-index: 5;
+  }
+  
+  .menuBtn span {
+    height: 3px;
+    background: #000;
+    transition: 0.3s;
+  }
+  
+  /* حركة التحول إلى X */
+  .menuBtn span.open:nth-child(1) {
+    transform: translateY(9px) rotate(45deg);
+  }
+  .menuBtn span.open:nth-child(2) {
+    opacity: 0;
+  }
+  .menuBtn span.open:nth-child(3) {
+    transform: translateY(-9px) rotate(-45deg);
+  }
+  
+  /* قائمة الموبايل */
+  .mobileMenu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 75%;
+    height: 100vh;
+    background: #4CAF4F;
+    padding: 2.5rem 1.5rem;
+    transition: 0.3s;
+    z-index: 3;
+  }
+  
+  .mobileMenu.show {
+    right: 0;
+  }
+  
+  .mobileMenu ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .mobileMenu ul li {
+    margin-bottom: 2.5rem;
+  }
+  .mobileMenu ul li a{
+    color: #FFFFFF;
+    font: 500 20px/24px 'Inter', sans-serif;
+  }
+
+  .mobileBtns {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .mobileBtns a{
+    color: #FFFFFF;
+    font: 500 20px/24px 'Inter', sans-serif;
+
+  }
+  

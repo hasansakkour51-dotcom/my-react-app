@@ -1,0 +1,37 @@
+.iconCard{
+    width: 50px;
+    height: 49px;
+    background-color: #E8F5E9;
+    border-radius: 18px 5px 10px 5px;
+    -webkit-border-radius: 18px 5px 10px 5px;
+    -moz-border-radius: 18px 5px 10px 5px;
+    -ms-border-radius: 18px 5px 10px 5px;
+    -o-border-radius: 18px 5px 10px 5px;
+}
+.iconCard svg{
+    transform: translateX(-0.8rem);
+    -webkit-transform: translateX(-0.8rem);
+    -moz-transform: translateX(-0.8rem);
+    -ms-transform: translateX(-0.8rem);
+    -o-transform: translateX(-0.8rem);
+}
+.ourClientsTile{
+    padding: 1.2rem;
+    background-color: #FFFFFF;
+    box-shadow: 0px 2px 4px 0px #ABBED133;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.ourClientsTile h2{
+    color: #4D4D4D;
+    font: 700 28px/36px 'Inter' , sans-serif;
+    text-align: center;
+}
+.ourClientsTile p{
+    color: #717171;
+    font: 400 14px/20px 'Inter', sans-serif;
+    text-align: center;
+}

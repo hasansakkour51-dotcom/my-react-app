@@ -1,0 +1,19 @@
+.aboutUsContent h3{
+    color: #4D4D4D;
+    font: 600 36px/44px 'Inter', sans-serif;
+}
+.aboutUsContent p{
+    color: #717171;
+    font:  600 16px/20px 'Inter', sans-serif;
+}
+.aboutUsContent a{
+    padding: 1rem 1.5rem;
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    font: 600 16px/20px 'Inter', sans-serif;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
